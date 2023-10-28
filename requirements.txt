@@ -1,1 +1,6 @@
-Flask==3.0.0
+Flask
+pytesseract
+Pillow
+openai
+python-dotenv
+flask_cors
