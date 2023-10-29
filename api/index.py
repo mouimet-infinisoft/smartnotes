@@ -24,6 +24,7 @@ def ocr_space_file(file, overlay=False, language='fre'):
                       data=payload,
                       )
     t = r.json()
+    
     return t["ParsedResults"][0]["ParsedText"]
 
 @app.route('/smart', methods=['POST'])
