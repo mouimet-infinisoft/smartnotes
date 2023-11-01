@@ -4,3 +4,6 @@ Pillow
 openai
 python-dotenv
 flask_cors
+httplib2
+six
+python-taiga
